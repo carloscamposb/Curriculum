@@ -226,7 +226,7 @@ const Page2 = () => {
   return (
     <View style={styles.page}>
       <View style={styles.textGroup}>
-        <Text style={styles.pageTitle}>Formation</Text>
+        <Text style={styles.pageTitle}>Education</Text>
       </View>
         
         <Text style={styles.majorText}>Graduated in Systems Analysis and Development - National Service for Commercial Learning (SENAC-Recife, Pernambuco). 2023 - present.</Text>
@@ -587,7 +587,7 @@ const App = () => {
           </TouchableOpacity>
           <TouchableOpacity style={styles.menuItem} onPress={() => navigateTo('Page 2')}>
           <FontAwesome name="graduation-cap" style={styles.iconNav}/>
-            <Text style={styles.menuItemText}>Formation</Text>
+            <Text style={styles.menuItemText}>Education</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.menuItem } onPress={() => navigateTo('Page 3')}>
           <FontAwesome name="bar-chart" style={styles.iconNav} />
